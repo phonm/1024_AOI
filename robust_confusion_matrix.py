@@ -14,7 +14,7 @@ from pandas import DataFrame
 from sklearn.metrics import confusion_matrix
 
 
-class aicots_confusion_matrix(object):
+class robust_confusion_matrix(object):
 
     def __init__(self, y_test, predictions, label=[], filepath=None, is_show=False):
         '''
